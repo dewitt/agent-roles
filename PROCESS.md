@@ -15,11 +15,11 @@ Issue assignment is the synchronization lock.
 2.  **Verify**: Immediately re-read the issue. If another agent is also assigned, remove yourself and pick a different task.
 
 ## 3. Execution
-1.  **Sync**: `git pull origin main`
-2.  **Branch**: `git checkout -b collab/task-T-<id>`
-3.  **Work**: Read issue, implement, and test.
-4.  **Commit**: `git commit -am "[collab] T-<id>: <summary>"`
-5.  **Push**: `git push -u origin collab/task-T-<id>`
+1.  **Sync**: Pull the default branch.
+2.  **Branch**: Create a feature branch. Follow the project's existing branch naming convention if one exists. Otherwise, use a short descriptive name (e.g., `fix-login-bug`, `add-search-endpoint`).
+3.  **Work**: Read the issue, implement, and test.
+4.  **Commit**: Write clear commit messages. Follow the project's existing commit convention if one exists.
+5.  **Push**: Push your branch to the remote.
 
 ## 4. Submission
 1.  **PR**:
