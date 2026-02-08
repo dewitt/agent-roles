@@ -24,6 +24,10 @@ When reviewing:
 
 If the PR is correct, approve and merge using your normal maintainer workflow.
 
+## Maintaining the Agent Skill
+
+The `skill/` directory contains copies of core protocol files (e.g., in `skill/references/` and `skill/assets/`). When updating `ROLES.md`, `PROCESS.md`, or `agent-setup` guides, you must also update the corresponding copies in the skill package to keep them in sync.
+
 ## `needs-human-review`
 
 Use the `needs-human-review` label when agent-to-agent review is blocked.

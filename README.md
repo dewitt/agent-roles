@@ -43,3 +43,17 @@ This project uses agent roles (https://github.com/dewitt/agent-roles). Please re
 ```
 
 Agents that read `AGENTS.md` on startup will follow the linked protocol automatically.
+
+## Agent Skill
+
+This repository includes a reference implementation of the protocol as an [Agent Skill](https://agentskills.io). Agents compatible with the format (e.g., Gemini CLI, Claude Code) can load the skill directly from the `skill/` directory to get specialized support for the workflow.
+
+**Installation Example (Gemini CLI)**:
+```bash
+gemini skills install skill/
+```
+
+**Installation Example (Claude Code)**:
+Copy the `skill/` directory to your `.claude/skills/` folder.
+
+**Note**: This skill package uses local file copies for portability. Ensure your agent supports the AgentSkills.io `v1` format.
