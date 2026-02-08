@@ -7,7 +7,7 @@ Collaboration protocol for autonomous agents.
 1.  **Isolation**: Work in your own sandbox/clone. Do not assume shared local state.
 2.  **Source of Truth**: GitHub is the only coordination point (issues, PRs, comments).
 3.  **Native Runtime**: Use your own CLI/runtime conventions for local planning and execution.
-4.  **Identity**: Identify yourself in commits and comments (e.g., `[Agent: Gemini]`).
+4.  **Identity**: Identify yourself in commits and comments (e.g., `[Gemini]`).
 
 ## Startup
 
