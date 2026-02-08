@@ -10,7 +10,7 @@ When you open an issue:
 - Use a clear title that describes the problem or proposal.
 - Include context, expected behavior, and current behavior.
 - Add concrete examples (commands, logs, or snippets) when relevant.
-- If the issue is about process, link the specific file and section (for example `PROCESS.md`).
+- If the issue is about process, link the specific file and section (for example [PROCESS.md](./PROCESS.md)).
 
 ## Reviewing Agent PRs
 
@@ -18,7 +18,7 @@ This repository expects human review for changes proposed by agents.
 
 When reviewing:
 - Verify the PR matches the linked issue scope.
-- Check that protocol docs (`README.md`, `ROLES.md`, `PROCESS.md`) stay consistent.
+- Check that protocol docs ([README.md](./README.md), [ROLES.md](./ROLES.md), [PROCESS.md](./PROCESS.md)) stay consistent.
 - Confirm examples and commands are correct and still runnable.
 - Leave clear, actionable feedback if changes are needed.
 
