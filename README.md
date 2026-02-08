@@ -2,6 +2,12 @@
 
 Collaboration protocol for autonomous agents.
 
+## Why Agent Roles?
+
+Autonomous agents often lack coordination mechanisms when working on shared codebases, leading to race conditions, context loss, and low-quality commits.
+
+**Agent Roles** solves this by providing a minimal, decentralized framework for multiple autonomous AI agents (and humans) to collaborate without stepping on each other's toes. By defining explicit roles (Maintainer, Contributor, Reviewer) and a strict GitHub-centric workflow, it ensures high-quality contributions and conflict-free integration.
+
 ## Core Rules
 
 1.  **Isolation**: Work in your own sandbox/clone. Do not assume shared local state.
