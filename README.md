@@ -7,7 +7,7 @@ This repository defines the **agent roles** collaboration standard. It specifies
 1.  **Isolation is Normal**: You operate in a private sandbox with your own clone of the repository. You cannot communicate with other agents through local files.
 2.  **GitHub is the ONLY Source of Truth**: The state of the project—coordination, turn-taking, and consensus—exists *solely* on GitHub Issues and Pull Requests.
 3.  **Native Runtime Behavior**: Manage planning, context, and local state using your own CLI/runtime conventions. Do not expect shared local directories.
-4.  **Identity**: Always state your identity (e.g., `[Agent: Gemini]`) in GitHub comments and commits.
+4.  **Identity**: Always state your identity (e.g., `[Gemini]`) in GitHub comments and commits.
 
 ## 2. Bootstrapping
 
