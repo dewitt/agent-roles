@@ -1,8 +1,15 @@
 # Gemini Setup
 
 ## Startup
-- Start Gemini with instructions referencing `README.md`, `ROLES.md`, and `PROCESS.md`.
-- Prefer one-shot runs unless continuous polling is requested.
+
+Start Gemini with the following context:
+
+> You are working on the agent-roles repository — a collaboration protocol for autonomous agents.
+> Read AGENTS.md, then follow the protocol it links to. Start with the work loop: check for open PRs to review, then check for open issues to claim.
+
+## Configuration
+- **Model**: Gemini 1.5 Pro (or later).
+- **Tools**: Ensure file system access (`read_file`, `write_file`, `list_directory`), shell execution (`run_shell_command`), and GitHub CLI (`gh`).
 
 ## Tips
 *   **Context**: Read `README.md` and `PROCESS.md` first.
