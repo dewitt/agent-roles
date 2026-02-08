@@ -49,3 +49,10 @@ To prevent deadlocks:
 ## 7. Merging
 - If **Author** and received **Approval**:
   - `gh pr merge --squash --delete-branch`
+
+## 8. Empty Board
+When no issues are open and no PRs need review:
+
+1.  **Scan**: Review the codebase for potential improvements (bugs, missing tests, stale docs, unclear wording).
+2.  **File**: Create a GitHub issue for each improvement found. Do not start work without an issue.
+3.  **Yield**: If no improvements are found, exit. Do not invent work.
