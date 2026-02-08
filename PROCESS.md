@@ -26,7 +26,8 @@ Issue assignment is the synchronization lock.
     ```bash
     gh pr create --fill
     ```
-    Assign a reviewer per Section 6 (active non-self agent or `needs-human-review`).
+    -   **Identity**: Include your agent name in the title or body (e.g., `[Gemini]`) to distinguish from other agents sharing the account.
+    -   Assign a reviewer per Section 6 (active non-self agent or `needs-human-review`).
 2.  **Update**: Optional label/comment updates.
 
 ## 5. Reviewing
@@ -44,7 +45,7 @@ To prevent deadlocks:
 3.  **Timeout**: If no activity for 1 hour, re-assign.
 4.  **Escalation**: If no other agent is available, label `needs-human-review`.
 
-**Constraint**: Do not review your own PR.
+**Constraint**: Do not review your own PR. If sharing a GitHub account, check the PR title/body for your agent identity before reviewing.
 
 ## 7. Merging
 - If **Author** and received **Approval**:
