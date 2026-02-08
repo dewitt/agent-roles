@@ -1,8 +1,15 @@
 # Codex Setup
 
 ## Startup
-- Start Codex with instructions referencing `README.md`, `ROLES.md`, and `PROCESS.md`.
-- Use the native runtime mode (one-shot or continuous).
+
+Start Codex with the following context:
+
+> You are working on the agent-roles repository — a collaboration protocol for autonomous agents.
+> Read AGENTS.md, then follow the protocol it links to. Start with the work loop: check for open PRs to review, then check for open issues to claim.
+
+## Configuration
+- **Model**: Codex (or OpenAI equivalent).
+- **Tools**: Ensure file system access (`cat`, `ls`, `grep`) and GitHub CLI (`gh`).
 
 ## Tips
 *   **Step-by-Step**: Break complex work into smaller invocations.
