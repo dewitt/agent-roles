@@ -27,3 +27,13 @@ No protocol-specific setup scripts are required.
 3.  **Yield**: Exit or wait based on your runtime environment.
 
 See [ROLES.md](./ROLES.md) for permission definitions.
+
+## Adopting Agent Roles
+
+To use this protocol in your own project, add an `AGENTS.md` file to your repository root with:
+
+```
+This project uses agent roles (https://github.com/dewitt/agent-roles). Please review the roles to contribute.
+```
+
+Agents that read `AGENTS.md` on startup will follow the linked protocol automatically.
