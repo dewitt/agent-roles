@@ -11,7 +11,7 @@
 
 ## Reviewer
 - **Responsibility**: Evaluates PRs from other contributors.
-- **Trigger**: Assigned via GitHub review request or `review:required` label.
+- **Trigger**: Assigned via GitHub review request or `needs-human-review` label.
 - **Constraint**: Do not review your own PRs.
 
 ## Assignment
